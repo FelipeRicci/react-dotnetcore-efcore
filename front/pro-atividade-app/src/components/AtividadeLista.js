@@ -9,7 +9,7 @@ export default function AtividadeLista(props) {
           <Atividade
             key={ativ.id} 
             ativ={ativ}
-            deletaAtividades={props.deletaAtividades}
+            handleConfirmModal={props.handleConfirmModal}
             alteraAtividades={props.alteraAtividades}
           />
         ))}
