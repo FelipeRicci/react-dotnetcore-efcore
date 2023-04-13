@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProAtividade.Domain\ProAtividade.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10"></PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.10" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+
+	<PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
